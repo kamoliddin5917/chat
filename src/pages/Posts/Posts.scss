@@ -1,0 +1,17 @@
+.posts {
+  width: 75vw;
+
+  &__user {
+    background-color: gold;
+    padding: 1rem;
+    text-align: center;
+    color: red;
+  }
+
+  &__ul {
+    list-style: none;
+    padding: 1rem 2rem;
+    height: 89vh;
+    overflow: auto;
+  }
+}

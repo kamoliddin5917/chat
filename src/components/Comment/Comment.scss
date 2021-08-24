@@ -1,0 +1,22 @@
+.comment {
+  padding: 1rem 2rem;
+  border-bottom: .1rem solid gold;
+  color: red;
+  transition: all .4s;
+
+  &:hover {
+    background-color: gray;
+    color: gold;
+  }
+
+  &__name {
+    margin: 0;
+    text-align: center;
+  }
+
+  &__email {
+    text-align: end;
+    color: rgba(0, 0, 255, .7);
+    margin-bottom: 0.5rem;
+  }
+}

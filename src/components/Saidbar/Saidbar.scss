@@ -1,0 +1,20 @@
+.saidbar {
+  width: 25vw;
+  height: 100vh;
+  padding-top: 1rem;
+  background-color: gold;
+
+  &__title {
+    text-align: center;
+    color: red;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5), -2px 2px 4px rgba(0, 0, 0, .5), -2px -2px 4px rgba(0, 0, 0, .5), -2px 2px 4px rgba(0, 0, 0, .5);
+  }
+}
+
+.users {
+  list-style: none;
+  height: 89vh;
+  overflow: auto;
+  padding: 1rem;
+}
